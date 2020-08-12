@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 1);
+}
+
+.container .form-container {
+    position: relative;
+    width: 384px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.form-container form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tudo-none{
+    display: none;
+}
+
+
+/*Aqui é o style do login*/
+
+
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 5px;
+}
+
+.titulos h1{
+    color: rgb(255, 255, 255);
+}
+
+.container-img{
+    width: 80px;
+    height: 80px;
+}
+
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.letra span{
+    font-size: 12pt;
+}
+
+.campos-log {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.campos {
+    width: 85%;
+    height: 39px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+.senha-esqueceu {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(196, 196, 196)
+}
+#btn-cad{
+    outline: none;
+}
+#sig-in{
+    outline: none;
+}
+.btn-link {
+    align-self: center;
+    margin-top: 20px;
+}
+
+.form-button {
+    width: 180px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-size: 12pt;
+    color: #fff;
+    background-color: rgb(146, 20, 146);
+    cursor: pointer;
+}
+
+.cell-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #fff;
+}
+
+.cell-link a {
+    text-decoration: none;
+    color: rgb(0, 47, 255);
+    cursor: pointer;
+}
+
+
+/*Fim style login*/
+
+
+/*style do cadastro*/
+
+.campos-cad {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Inicio erros*/
+.p_retorno {
+    color: red;
+    font-family: 'Roboto';
+    font-weight: '600';
+    text-align: center;
+}
+
+.vazio::-webkit-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+#respostaLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+#resposta {
+    text-align: center;
+    color: red;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+#respostaOk {
+    text-align: center;
+    color: green;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+/*Fim erros*/
+
+/*Fim do cadastro*/
+
+/*Animações*/
+
+.anima-left{
+    position: relative;
+    left: -50%;
+    animation: anima-left 0.7s ease-in-out forwards;
+}
+
+.anima-right{
+    position: relative;
+    right: -50%;
+    animation: anima-right 0.7s ease-in-out forwards;
+}
+
+.delay-cad:nth-child(1){
+    animation-delay: 0.1s;
+}
+.delay-cad:nth-child(2){
+    animation-delay: 0.2s;
+}
+.delay-cad:nth-child(3){
+    animation-delay: 0.3s;
+}
+.delay-cad:nth-child(4){
+    animation-delay: 0.4s;
+}
+
+@keyframes anima-right{
+    0%{
+        right: -50%;
+        opacity: 0;
+    }
+    100%{
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes anima-left{
+    0%{
+        left: -50%;
+        opacity: 0;
+    }
+    100%{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+/*Fim animações*/
+
+/*Mobeli*/
+
+@media screen and (max-width: 400px) {
+    .container .form-container {
+        width: 95%;
+    }
+    .campos {
+        width: 90%;
+    }
+}
+
+
+/*Fim mobeli*/

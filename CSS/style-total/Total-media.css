@@ -1,0 +1,16 @@
+@media screen and (min-width: 935px){
+
+    .interface{
+        width: 100% !important;
+    }
+
+    .interface .container-main{
+        position: relative;
+        width: 935px;
+        margin: auto;
+        -webkit-box-shadow: 0px 0px 14px 4px rgba(31,31,31,1);
+        -moz-box-shadow: 0px 0px 14px 4px rgba(31,31,31,1);
+        box-shadow: 0px 0px 14px 4px rgba(31,31,31,1);
+        background-color: rgb(10, 10, 10);
+    }
+}

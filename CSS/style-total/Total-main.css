@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Helv", "Helvetica Neue";
+}
+
+.interface{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10); 
+}
+
+.container-main{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+}
+
+/*Inicio form do pesquisa */
+
+.container-main .main-form{
+    position: relative;
+    margin-top: 1px;
+    width: 100%;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('../../Imagens/top.png');
+    filter: grayscale(100%);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat-y;
+    background-blend-mode: color-dodge;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.main-form .content-form{
+    position: relative;
+}
+
+.content-form .txt-pes{
+    font-size: 11pt;
+    height: 34px;
+    padding-left: 7px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.content-form .btn-pes{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    width: 35px;
+    background-color: #ffffff;
+    color: grey;
+    border: none;
+    border-left-width: 1px;
+    border-left-color: rgb(143, 143, 143);
+    border-left-style: solid;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/*Fim form de pesquisa*/
+
+/*começo da stylização do footer*/
+
+.interface .container-footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("../../Imagens/fundo-preto.jpg");
+    background-size: cover;
+}
+
+.container-footer .footer-p{
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Fim da stylização do footer*/

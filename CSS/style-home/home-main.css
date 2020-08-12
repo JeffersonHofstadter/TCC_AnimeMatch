@@ -1,0 +1,79 @@
+.interface .container-main{
+    padding-bottom: 20px;
+
+}
+/*slider carousel*/
+
+.container-main .main-slider{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*slider carousel*/
+
+/*começo style do slider do netflix*/
+.container-main .main-animes{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.imgAnime {
+    cursor: pointer;
+}
+
+.main-animes .container-slide-swiper{
+    margin-bottom: 50px;
+}
+
+.main-animes .container-slide-swiper .titulo-swiper{
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+.swiper-wrapper{
+    margin-left: .5rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    cursor: pointer !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 150px;
+}
+
+.btns-N-P{
+    display: none;
+}
+
+:root{
+    --swiper-theme-color: #fff;
+}
+
+/*fim style slider netflix*/

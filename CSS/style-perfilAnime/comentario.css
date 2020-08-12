@@ -1,0 +1,54 @@
+.content{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    color: white;
+    bottom: 5px;
+}
+.informacoes{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.informacoes .nome{
+    position: relative;
+    width: 100%;
+    margin-left: 10px;
+}
+.nome h3{
+    font-size: 13pt;
+}
+.nome spam{
+    font-size: 10pt;
+}
+
+.nome .menu-denuncie{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.menu-denuncie:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+.img img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.comentario{
+    margin-left: 60px;
+}
+.comentario p{
+    font-size: 12pt;
+    padding: 10px;
+    border-radius: 10px;
+    word-break: break-word;
+    background-color: rgb(34, 34, 34);
+}

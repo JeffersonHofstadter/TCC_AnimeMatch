@@ -1,0 +1,52 @@
+@media screen and (min-width: 420px){
+
+    .container-main .main-form{
+        height: 150px;
+    }
+
+    .main-form .content-form{
+        width: 80%;
+    }
+
+    .content-form .txt-pes{
+        width: 100%;
+        font-size: 12pt;
+    }
+    .swiper-slide img{
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width: 520px){
+    .main-form .content-form{
+        width: 472px;
+    }
+    .swiper-slide img{
+        height: 220px;
+    }
+}
+
+@media screen and (min-width: 935px){
+    
+    .interface{
+        width: 935px;
+        margin: auto;
+    }
+    .main-pesquisa{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .txtPqs{
+        width: 500px;
+    }
+
+    .main-animes{
+        width: 935px;
+    }
+
+    .swiper-slide img{
+        height: 246.133px;
+    }
+}

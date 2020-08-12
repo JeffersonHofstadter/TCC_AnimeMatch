@@ -1,0 +1,214 @@
+.interface .container-main{
+    padding-top: 40px;
+}
+
+/*Inicio da seção de imagem de capa e perfil*/
+.container-main .main-capa-peril{
+    position: relative;
+    width: 100%
+}
+
+.main-capa-peril .container-capa{
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+
+.main-capa-peril .container-capa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-capa-peril .container-perfil{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.main-capa-peril .container-perfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding: 12px;
+    background: rgba(10, 10, 10, .5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.icon:hover{
+    background-color: rgba(10, 10, 10, .8);
+}
+
+.container-perfil .img_perfil_icon{
+    bottom: -5px;
+    right: -5px;
+}
+/*Fim da seção de imagem de capa e perfil*/
+
+/*Inicio da seção de descrições, contendo caracteristicas e nome do user*/
+
+.container-main .main-descricao{
+    width: 100%;
+    padding-top: .5rem;
+}
+
+.main-descricao .content-nome-btn{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.content-nome-btn .name-do-user{
+    color: #fff;
+}
+
+.container-btn .btn-editar{
+    width: 80px;
+    height: 30px;
+    font-size: 12pt;
+    letter-spacing: .5px;
+    background-color: indigo;
+    border: 1px solid indigo;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-descricao .container-descricao{
+    width: 100%;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-descricao .container-descricao p{
+    color: #fff;
+    font-size: 11pt;
+    margin-bottom: 5px;
+}
+/*Fim da seção de descrições, contendo caracteristicas e nome do user*/
+
+/*Inicio da stylização do btns de interações*/
+
+.container-main .main-btns-interacoes{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    border-bottom: 1px solid grey; 
+}
+
+.main-btns-interacoes .btns-interacoes{
+    width: 20vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 60%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-btns-interacoes .active{
+    border-bottom: 2px solid indigo; 
+}
+
+/*Fim da stylização do btns de interações*/
+
+/*Inicio da stylização da seção de atividades*/
+
+.content-abas .titulo-recentes{
+    padding-top: 10px;
+    padding-left: 1rem;
+    padding-bottom: 10px;
+}
+
+.titulo-recentes .ttl-rec{
+    font-size: 13pt;
+    color: #fff;
+}
+
+.content-abas .container-coment{
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    background-color: brown;
+}
+
+.container-coment .container-img-rec-anime{
+    width: 100px;
+    height: 130px;
+}
+
+.container-img-rec-anime img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-coment .content-coment-name{
+    width: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content-coment-name .name-coment{
+    margin-bottom: 10px;
+}
+
+.content-coment-name .coment{
+    width: 100%;
+    word-break: break-word;
+}
+
+
+.leiamais-btn {
+    font-size: 80%;
+    color: inherit;
+    text-decoration: none;
+}
+
+.leiamais-tail {
+    display: none
+}
+
+.nenhum-recomendado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nenhum-recomendado img{
+    width: 150px;
+}
+
+.nao-fez-nada-ainda{
+    color: #fff;
+    text-align: center;
+}
